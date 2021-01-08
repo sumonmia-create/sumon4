@@ -1,0 +1,72 @@
+
+.box{
+	width: 300px;
+	margin: auto;
+	margin-top: 150px;
+	border: 2px solid #fff;
+	box-shadow: 0px -6px 20px black;
+}
+.box input{
+	width: 90%;
+	margin: auto;
+	padding: 8px;
+	margin-top: 10px;
+}
+.box button{
+	background: red;
+	color: #fff;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+.box button:hover{
+	background: green;
+}
+/* join area start here */
+
+.box1{
+	width: 300px;
+	border: 2px solid #fff;
+	box-shadow: 0px -6px 20px black;
+	margin: auto;
+	margin-top: 50px;
+	
+}
+.box2{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.box2 input{
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	padding: 5px;
+
+	
+}
+.box3{
+	width: 200px;
+	margin: auto;
+	margin-top: 10px;
+	
+	
+}
+.box3 input{
+	margin-top: 20px;
+	
+	
+}
+.box1 button{
+	margin-top: 20px;
+	background: red;
+	padding: 5px 12px;
+	color: #fff;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+

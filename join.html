@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>join free</title>
+	<link rel="stylesheet" type="text/css" href="sign.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="respons.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+</head>
+<body>
+
+<form action="">
+	<div class="box1">
+		<h2>Join Free</h2>
+			<div class="box2">
+				<input name="uname" type="text" placeholder="Your Name"/>
+				<input name="uemail" type="email" placeholder="Your email"/>
+				<input name="upass" type="password" placeholder="password"/>
+				<input name="uaddress" type="text" placeholder="Your Address"/>
+				<input name="umobile" type="text" placeholder="Your Mobile Number"/>
+			</div>	
+			<div class="box3">
+				<label for="">Your Photo</label>
+			
+				<input name="upic" type="file" />
+			
+			
+				<input name="ugender" type="radio" value="Male" id="male"/>
+				<label for="male">Male</label>
+			
+				<input name="ugender" type="radio" value="Female" id="female"/>
+				<label for="female">Female</label>
+			
+				<input name="ugender" type="radio" value="Others" id="others"/>
+				<label for="others">Others</label>
+			</div>
+			<button type="submit">Registration</button>
+			OR <a href="sign.html">Sign In</a>
+			<button onclick="back()">Back</button>
+	</div>
+</form>
+	
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function back(){
+			window.history.back('index.html');
+		}
+	</script>
+</body>
+</html>
