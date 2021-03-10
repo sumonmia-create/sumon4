@@ -1,115 +1,84 @@
-@media all and (max-width: 991px){
-	.sign-area{
-		display: none;
+@media all and (max-width: 330px){
+	.logo-area{
+	float: none;
+	width: 50%;
+	height: 50px;
+	z-index:1;
+	
+	}
+	.logo-area label{
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 12px;
+
+	}
+	.logo-area label img{
+	width: 20px;
+	height: 20px;
+	margin-top: 0px;
+	margin-left: 1px;
+	}
+	.header-bottom{
+
+	
 	}
 	.header-top i{
 		display: block;
-		margin-right: 20px;
-		margin-top: 15px;
 	}
-	.header-top .logo-area{
-		width: 40%;
-		margin: auto;
-		text-align: center;
-		display: block;
+	.header-top .main-menu{
+	position: fixed;
+	background: rgba(20, 100, 268, .5);
+	display: none;
+	z-index: 100;
 	}
-	
-	
-	.search-area{
-		float: none;
-		width: 95%;
-		display: block;
-		text-align: center;
-		margin: auto;
-		
-	}
-	.input-group i{
-	margin-right: 0px;
-	margin-top: 0px;
-	
-	}
-	
-	
-	
-	/* header bottom area start here */
-	.header-bottom{
-		background: #1c546e; 
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-	}
-	.sign2-area{
-		background: #1c546e;
-		
-	}
-	.sign2-area ul{
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		margin-left: 30px;
-		
-	}
-	.sign2-area ul li{
-		margin-top: 10px;
-	}
-	.sign2-area ul li a{
-	color: #fff;
-	font-family: Times New Roman;
-	font-size: 20px;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 4px;
-	}
-	.sign2-area ul li a:hover{
-	background: #c3a7e2;
-	}
-	.main-menu{
-		margin: 0;
-		padding: 0;
-		display: none;
-	}
-	.main-menu ul{
-		text-align: left;
-			
-	}
-	.main-menu ul li{
-		display: block;
-		margin-top: 10px;
-	}
-	.main-menu ul ul{
-		z-index: 1;
-		left: 120px;
-		top: -130px;
-		
-	}
-	.main-menu ul ul li{
-		margin-left: 5px;
-
-		
-	}
-	.main-menu ul li a i{
-		transform: rotate(-90deg);
-	}
-	.slide-area .box3{
-		display: none;
-	}
-	/* slide area start here */
-	.slide-area .box1{
-		display: none;
-		
-	}
-	
-	
-	
-}
-/* sign area start here */
-@media all and (max-width: 318px;){
-	.box{
+	.header-top .main-menu ul{
 	width: 100%;
-	margin: auto;
-	
+	text-align: left;
+	padding: 50px;
 	}
-	.box1{
-		width: 100%;
+	.header-top .main-menu ul li{
+	margin-top: 20px;
+	}
+	.header-bottom .content{
+	width: 100%;
+	margin-top: 100px;	
+	}
+	.header-bottom .content h2{
+	font-size: 13px;
+	width: 98%;
+	margin: auto;
+	text-align: center;
+	display: block;
+	}
+	.header-bottom .content h1{
+	font-size: 20px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	display: block;
+	}
+	.header-bottom .content p{
+	font-size: 10px;
+	width: 90%;
+	}
+	.header-bottom .content a{
+	font-size: 13px;
+	width: 80%;
+	}
+	.header-bottom .img{
+	width: 90%;
+	margin: auto;
+}
+	.header-bottom img{
+	width: 90%;
+	height: 100px;
+	margin-top: 470px;
+	
+
+	}
+	.header-bottom .im{
+	margin-top: 380px;
+	
+	
 	}
 }
